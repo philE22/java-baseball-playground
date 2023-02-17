@@ -24,3 +24,12 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+## 구현할 기능 목록
+
+---
+1. 컴퓨터의 랜덤 3자리 수 설정 기능 (setNumber)
+2. 숫자를 입력 받는 기능 (inputNumber)
+3. 입력받는 수를 스트라이크 계산하는 기능 (calculate)
+4. 결과를 알려주는 기능 
+5. 시작하는 기능
