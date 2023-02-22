@@ -6,7 +6,7 @@ public class Ball {
     private final int number;
     private final int position;
 
-    public Ball(int number, int position) {
+    public Ball(int position, int number) {
         this.number = number;
         this.position = position;
     }

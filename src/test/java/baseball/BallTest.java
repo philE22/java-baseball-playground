@@ -19,10 +19,10 @@ public class BallTest {
     }
     @Test
     void nothing() {
-        assertThat(com.compare(new Ball(2, 1))).isEqualTo(BallStatus.NOTHING);
+        assertThat(com.compare(new Ball(2, 3))).isEqualTo(BallStatus.NOTHING);
     }
     @Test
     void ball() {
-        assertThat(com.compare(new Ball(1, 1))).isEqualTo(BallStatus.BALL);
+        assertThat(com.compare(new Ball(2, 2))).isEqualTo(BallStatus.BALL);
     }
 }
