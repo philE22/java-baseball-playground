@@ -24,7 +24,11 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
-기능 목록
+<br>
+
+## 기능 목록
+
+---
 - 1 ~ 9 의 서로 다른 세 숫자를 정한다.
 - 사용자로 부터 받은 3개의 숫자 예외 처리
     - 1 ~ 9 숫자인가?
