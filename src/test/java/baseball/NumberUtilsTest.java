@@ -40,7 +40,19 @@ public class NumberUtilsTest {
         assertThat(a != b).isTrue();
         assertThat(b != c).isTrue();
         assertThat(a != c).isTrue();
-
     }
 
+
+
+    @Test
+    void validateInput() {
+        String input = "123";
+        List<Integer> list = NumberUtils.parsingInput(input);
+
+        assertThat(list.size()).isEqualTo(3);
+        assertThat(list.get(0)).isEqualTo(1);
+        assertThat(list.get(1)).isEqualTo(2);
+        assertThat(list.get(2)).isEqualTo(3);
+
+    }
 }

@@ -15,4 +15,13 @@ public class NumberUtils {
 
         return list;
     }
+
+    public static List<Integer> parsingInput(String input) {
+        ArrayList<Integer> list = new ArrayList<>();
+
+        for (int i = 0; i < 3; i++) {
+            list.add(Integer.parseInt(String.valueOf(input.charAt(i))));
+        }
+        return list;
+    }
 }
