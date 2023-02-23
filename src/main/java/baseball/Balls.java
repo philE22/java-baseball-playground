@@ -7,6 +7,10 @@ public class Balls {
     private ArrayList<Ball> balls;
 
     public Balls(List<Integer> numbers) {
+        if (numbers.size() != 3) {
+            throw new IllegalArgumentException("입력값은 3자리수여야합니다.");
+        }
+
         balls = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
             balls.add(new Ball(i + 1, numbers.get(i)));

@@ -4,7 +4,7 @@ public class BaseballGameApplication {
     public static void main(String[] args) {
         InputView inputView = new InputView();
         ResultView resultView = new ResultView();
-        boolean restart = false;
+        boolean restart = true;
 
         while (restart) {
             System.out.println("게임을 시작합니다");
